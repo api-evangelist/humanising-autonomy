@@ -1,8 +1,17 @@
 aid: humanising-autonomy
 name: Humanising Autonomy
-description: 'Humanising Autonomy is a company surfaced as a portfolio company of anthemis and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Humanising Autonomy is a London-based behavioural AI company that builds
+  ethical computer-vision software to understand and predict human behaviour, providing
+  context between people and machines. Its "Behaviour AI" platform combines novel deep
+  learning, behavioural psychology and statistical AI to analyse existing camera and
+  video footage across automotive & ADAS, fleet telematics, city infrastructure &
+  planning, and health & safety use cases -- improving road safety and reducing liability.
+  The company connects to a customer''s existing cameras, platform or video footage
+  rather than exposing a public developer API. Backed by Anthemis. NOTE: the primary
+  website (humanisingautonomy.com) is currently unreachable / parked (HTTP 404) as
+  of 2026-07-19, indicating the company may be inactive; this profile is reconstructed
+  from archived (Wayback) sources -- no public API, SDK registry, or developer portal
+  was ever published.'
 url: https://raw.githubusercontent.com/api-evangelist/humanising-autonomy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +19,57 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://humanisingautonomy.com/
+x-website-status: 'unreachable (HTTP 404, parked at ghs.googlehosted.com) as of 2026-07-19'
+x-enrichment-note: 'Identity reconstructed from Wayback snapshot 20221229; no public API/SDK/OpenAPI/docs surface found. No API artifacts produced (none exist).'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://web.archive.org/web/20230111114613/https://humanisingautonomy.com/wp-content/uploads/2022/05/Humanising-Autonomy-Favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Behavioral AI
+- Computer Vision
+- Road Safety
+- ADAS
+- Automotive
+- Telematics
+- Machine Learning
 apis: []
+common:
+- type: Website
+  url: https://humanisingautonomy.com/
+- type: Blog
+  url: https://humanisingautonomy.com/blog/
+- type: TermsOfService
+  url: https://humanisingautonomy.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://humanisingautonomy.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/humanising-autonomy
+- type: Twitter
+  url: https://twitter.com/Humanising_AI
+- type: YouTube
+  url: https://www.youtube.com/channel/UCjp3Ji9A91hZY2I2vI0P-qA
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

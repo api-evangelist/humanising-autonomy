@@ -22,6 +22,17 @@ x-tier-reason: portfolio-lead
 x-website: https://humanisingautonomy.com/
 x-website-status: 'unreachable (HTTP 404, parked at ghs.googlehosted.com) as of 2026-07-19'
 x-enrichment-note: 'Identity reconstructed from Wayback snapshot 20221229; no public API/SDK/OpenAPI/docs surface found. No API artifacts produced (none exist).'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

@@ -52,12 +52,12 @@ tags:
 - Company
 - Artificial Intelligence
 - Behavioral AI
-- Computer-Vision
+- Computer Vision
 - Road Safety
 - ADAS
 - Automotive
 - Telematics
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Ai
@@ -68,6 +68,8 @@ tags_raw:
 - Automotive
 - Telematics
 - Machine Learning
+- Computer-Vision
+- Machine-Learning
 apis: []
 common:
 - type: Website
